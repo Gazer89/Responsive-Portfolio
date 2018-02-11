@@ -19,7 +19,7 @@
         margin-top: 10px;
         font-size: 30px;
         height: 70px;
-        margin-left: 260px;
+        margin-left: 20%;
         line-height: 70px;
         }
 
@@ -219,6 +219,95 @@
         padding-bottom: 10px;
         }
 
+
+/* media query - 1200*/
+@media only screen and (max-width: 1100px) {
+
+    /* headername - 1200*/
+    .headername {
+        float: left;
+        width: 20%;
+        margin-left: 0%;
+        }
+
+
+    /* navigation bar - 1200*/
+    .navigationbar {
+        margin-right: 5%;
+        }
+            
+
+    /*connect with me section - 1200*/
+    .connectwithme {
+        width: 30%;
+        height: auto;
+        float: right;
+        margin-right: 5%;
+        }
+
+    /*main content section - 1200*/
+
+    .maincontentbox {
+        width: 40%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        }
+        
+    p {
+        letter-spacing: .5px;
+        margin-right: 10px;
+        }
+
+    /*portfolio section - 980*/
+    .portitem  {
+        position: relative;
+        float: left;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        }   
+
+    .portpic {
+        height: 100%;
+        width: 100%;
+        }
+
+    .portitem h2 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 30px;
+        font-size: 25px;
+        }
+
+    /*form section - 980*/
+    form {
+        padding: 5px;
+        margin-right: 40px;
+        }
+
+    input {
+        width: 100%;
+        padding: 5px;
+        }
+
+    textarea {
+        width: 100%;
+        height: 300px;
+        }
+
+    /*footer section - 980*/
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
+    }
+
 /* media query - 980*/
     @media only screen and (max-width: 980px) {
 
@@ -324,7 +413,7 @@
         /*connect with me section - 768*/
         .connectwithme {
             float: left;
-            width: 90%;
+            width: 89%;
             height: auto;
             margin-left: 5%;
             margin-bottom: 12%;
